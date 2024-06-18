@@ -11,6 +11,6 @@ app.use(async (ctx,next)=>{
 
 app.use(router.routes())
 
-app.listen(9090,()=>{
-    console.log(`serve run localhost:9090`)
+app.listen(3000,()=>{
+    console.log(`serve run localhost:3000`)
 })
