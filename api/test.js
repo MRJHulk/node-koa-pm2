@@ -5,7 +5,7 @@ router.get('/',(ctx,next)=>{
     ctx.body='Hello World'
 })
 
-router.post('/users',(ctx,next)=>{
+router.get('/users',(ctx,next)=>{
     ctx.body='here is users'
 })
 
